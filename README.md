@@ -1,4 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `A React based web application to list the members and their associated events with features such as booking an event and filtering the list.`
+
+The application will have the following specifications.
+
+### Fetch a list of [members](https://next.json-generator.com/api/json/get/NyNrlJTX8) and [events](https://next.json-generator.com/api/json/get/Vk7OTypQ8) (you can use [Json Generator](https://next.json-generator.com) to generate your own data).
+
+### `Items must contain:`
+
+- Member: name, age, phone, email, company
+- Event: organizer, company, about, scheduled for, duration, capacity.
+
+### `Members LIST:`
+
+- List must support the ability to sort by age/name and both with (ascending, descending).
+- List must support the delete member.
+- Each member must have “locate on calendar” action (which will highlight the events he is registered for)
+- Every Member should have the ability to add an event (select an event from the list of events)
+- Each Member should have a number of Events he/she is signed up for.
+
+### `Events LIST:`
+
+- Every event should have the ability to show the capacity status
+- Every Event should have “toggle display” button (that will hide/show Event’s marker on the calendar).
+
+### `FILTERS Specifications:`
+
+- Please apply the filters to the members and events components.
+- When members are filtered, events should be filtered accordingly (display events that are assigned to members that weren’t filtered).
+- Please make you progress is properly conveyed through git commit history .
+
+### **This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
 
 ## Available Scripts
 
